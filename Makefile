@@ -5,8 +5,8 @@ LDFLAGS  = -m32 -shared -lsampgdk -lboost_system -lboost_date_time -lboost_regex
 
 all: sampmap.so
 
-sampmap.so: helloworld.o 
+sampmap.so: sampmap.o 
 	$(CXX) $^ -o $@ $(LDFLAGS)
 
 clean:
-	rm -vf helloworld.o helloworld.so
+	rm -vf sampmap.o sampmap.so

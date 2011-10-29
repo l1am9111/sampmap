@@ -1,4 +1,4 @@
-#include "helloworld.h"
+#include "sampmap.h"
 
 #include <sampgdk/amxplugin.h>
 #include <sampgdk/players.h>

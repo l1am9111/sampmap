@@ -4,7 +4,7 @@
 	Version="9.00"
 	Name="sampmap"
 	ProjectGUID="{26FFDF64-1698-4193-995F-4FBD79573E92}"
-	RootNamespace="samphelloworld"
+	RootNamespace="sampmap"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -63,7 +63,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="sampgdkVC9.lib"
 				LinkIncremental="2"
-				ModuleDefinitionFile="helloworld.def"
+				ModuleDefinitionFile="sampmap.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
@@ -117,7 +117,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;SAMPHELLOWORLD_EXPORTS;_WIN32_WINNT=0x0501"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;SAMPMAP_EXPORTS;_WIN32_WINNT=0x0501"
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
@@ -138,7 +138,7 @@
 				AdditionalDependencies="sampgdkVC9.lib websocketpp.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				LinkIncremental="1"
-				ModuleDefinitionFile="helloworld.def"
+				ModuleDefinitionFile="sampmap.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
@@ -177,11 +177,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\helloworld.cpp"
+				RelativePath=".\sampmap.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\helloworld.def"
+				RelativePath=".\sampmap.def"
 				>
 			</File>
 		</Filter>
@@ -195,7 +195,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\helloworld.h"
+				RelativePath=".\sampmap.h"
 				>
 			</File>
 		</Filter>
