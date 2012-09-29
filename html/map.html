@@ -122,7 +122,7 @@ function load()
 	playermarkers = new OpenLayers.Layer.Markers();
 	map.addLayer(playermarkers);
 	
-	socket = new WebSocket("ws:////" + window.location.hostname + ":4444");
+	socket = new WebSocket("ws:////" + window.location.hostname + ":4444", 'map');
 	socket.onmessage = message;
 }
 </script>
